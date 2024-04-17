@@ -58,6 +58,7 @@ const LoginSignup= () =>{
         }
         else{
           alert(responseData.errors)
+          console("no");
          }
 
       }
